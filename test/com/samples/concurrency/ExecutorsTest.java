@@ -17,7 +17,7 @@ class ExecutorsTest {
 	void invokeAllTest() throws InterruptedException {
 		ExecutorService executor = Executors.newWorkStealingPool();
 		List<Callable<String>> callables = Arrays.asList(
-				getCallable(3),
+				getCallable(1),
 				getCallable(1),
 				getCallable(2));
 
@@ -64,7 +64,7 @@ class ExecutorsTest {
 				@Override
 				public void run() {
 					try {
-						TimeUnit.SECONDS.sleep(3);
+						TimeUnit.SECONDS.sleep(1);
 					} catch (InterruptedException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
@@ -77,7 +77,7 @@ class ExecutorsTest {
 
 		// block executor to accept new threads and finish all existing threads in the queue
 		executor.shutdown();
-		executor.awaitTermination(7, TimeUnit.SECONDS);
+		executor.awaitTermination(2, TimeUnit.SECONDS);
 		System.out.println("Finished!");
 	}
 
