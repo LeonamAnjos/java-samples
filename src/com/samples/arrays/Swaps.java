@@ -1,4 +1,4 @@
-package com.samples;
+package com.samples.arrays;
 
 public class Swaps {
 

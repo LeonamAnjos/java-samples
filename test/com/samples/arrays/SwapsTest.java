@@ -1,8 +1,10 @@
-package com.samples;
+package com.samples.arrays;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
+
+import com.samples.arrays.Swaps;
 
 class SwapsTest {
 

@@ -1,4 +1,4 @@
-package com.samples;
+package com.samples.sorting;
 
 import java.util.List;
 

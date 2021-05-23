@@ -1,4 +1,4 @@
-package com.samples;
+package com.samples.sorting;
 
 import static java.util.Arrays.asList;
 import static org.junit.jupiter.api.Assertions.assertEquals;

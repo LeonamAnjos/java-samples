@@ -1,4 +1,4 @@
-package com.samples;
+package com.samples.strings;
 
 import static org.junit.jupiter.api.Assertions.*;
 

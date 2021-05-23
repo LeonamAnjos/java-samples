@@ -1,4 +1,4 @@
-package com.samples;
+package com.samples.strings;
 
 import java.util.ArrayList;
 import java.util.Iterator;

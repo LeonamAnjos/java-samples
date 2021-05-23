@@ -1,8 +1,10 @@
-package com.samples;
+package com.samples.strings;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
+
+import com.samples.strings.SpecialString;
 
 class SpecialStringTest {
 

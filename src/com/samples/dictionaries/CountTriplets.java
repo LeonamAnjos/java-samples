@@ -1,4 +1,4 @@
-package com.samples;
+package com.samples.dictionaries;
 
 import java.util.HashMap;
 import java.util.List;

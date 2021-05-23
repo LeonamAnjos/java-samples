@@ -1,4 +1,4 @@
-package com.samples;
+package com.samples.searchs;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -6,6 +6,8 @@ import java.util.Arrays;
 import java.util.List;
 
 import org.junit.jupiter.api.Test;
+
+import com.samples.searchs.IceCreamParlor;
 
 class IceCreamParlorTest {
 

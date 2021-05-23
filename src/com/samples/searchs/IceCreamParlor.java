@@ -1,4 +1,4 @@
-package com.samples;
+package com.samples.searchs;
 
 import java.util.HashMap;
 import java.util.List;
