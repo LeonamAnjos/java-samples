@@ -20,4 +20,11 @@ class SwapsTest {
 		int swaps = Swaps.minimumSwaps(arr);
 		assertEquals(1, swaps);
 	}
+
+	@Test
+	void minimumSwaps_whenMoreThanOneSwapsAreNeeded() {
+		int[] arr = new int[] {2, 4, 1, 5, 3};
+		int swaps = Swaps.minimumSwaps(arr);
+		assertEquals(4, swaps);
+	}
 }
